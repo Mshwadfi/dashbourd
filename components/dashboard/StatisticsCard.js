@@ -3,7 +3,7 @@ import { Card } from "../ui/card";
 
 const StatisticsCard = ({ stat }) => {
   return (
-    <div>
+    <div data-testid={`stat-card-${stat.title}`}>
       <Card key={stat.title} className="p-6">
         <div className="flex items-center justify-between">
           <div>
