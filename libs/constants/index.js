@@ -47,7 +47,7 @@ export const menuItems = [
   },
 ];
 
-export const stats = [
+export const statistics = [
   {
     title: "Users",
     value: "1.2k",
@@ -56,14 +56,14 @@ export const stats = [
     trendUp: true,
   },
   {
-    title: "Albums",
+    title: "Music",
     value: "342",
     icon: Music2,
-    trend: "+8%",
-    trendUp: true,
+    trend: "-8%",
+    trendUp: false,
   },
   {
-    title: "Resources",
+    title: "Effects",
     value: "1.3K",
     icon: FileBox,
     trend: "+15%",
